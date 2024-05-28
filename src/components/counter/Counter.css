@@ -1,0 +1,74 @@
+/* src/Counter.css */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; /* Align to the right */
+  position: fixed; /* Make it stick to the right middle */
+  right: 10px; /* Position to the right */
+  top: 50%; /* Position to the middle */
+  transform: translateY(-50%); /* Center vertically */
+  padding: 10px; /* Some padding for spacing */
+  background-color: transparent; /* Transparent background */
+}
+
+.counter-box {
+  margin: 5px 0;
+  text-align: center;
+  color: white;
+  background-color: #262262; /* New color */
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 1s, color 1s;
+}
+
+.counter-box span {
+  display: block;
+  font-size: 2rem;
+  animation: colorTransition 2s infinite;
+}
+
+@keyframes colorTransition {
+  0% {
+    background-color: #262262;
+    color: white;
+  }
+  50% {
+    background-color: white;
+    color: #262262;
+  }
+  100% {
+    background-color: #262262;
+    color: white;
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .counter-container {
+    position: static; /* Disable fixed positioning */
+    transform: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .counter-box {
+    margin: 10px;
+    font-size: 1.5rem;
+  }
+
+  .counter-box span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .counter-box {
+    font-size: 1.2rem;
+  }
+
+  .counter-box span {
+    font-size: 1.2rem;
+  }
+}

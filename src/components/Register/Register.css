@@ -1,0 +1,71 @@
+/* register.css */
+
+.hero.is-dark {
+    height: 100vh;
+    background-color: #1f2424; /* Adjust to match your design */
+  }
+  
+  .hero-body.has-text-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    color: #fff; /* Adjust to match your design */
+    font-size: 2rem; /* Adjust to match your design */
+  }
+  
+  .container {
+    width: 50vw;
+  }
+  
+  .field {
+    margin-bottom: 1.5rem;
+  }
+  
+  .label.has-text-white {
+    color: #fff; /* Adjust to match your design */
+  }
+  
+  .input {
+    background-color: transparent;
+    border: 1px solid #fff; /* Adjust to match your design */
+    color: #fff; /* Adjust to match your design */
+    padding: 0.5rem;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #1abc9c; /* Adjust to match your design */
+  }
+  
+  .button.is-success {
+    background-color: #1abc9c; /* Adjust to match your design */
+    border: none;
+    color: #fff; /* Adjust to match your design */
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .button.is-success:hover {
+    background-color: #16a085; /* Adjust to match your design */
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #1f2424; /* Adjust to match your design */
+    color: #fff; /* Adjust to match your design */
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #1abc9c; /* Adjust to match your design */
+  }
+  
+  .footer a:hover {
+    color: #1dd2af; /* Adjust to match your design */
+  }
+  
