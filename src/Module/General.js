@@ -390,7 +390,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: "Who can attend?",
-        content: "HTM 5.0 is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online."
+        content: "HTM 5.0 is open to all undergraduate, high school students, and middle school students from all schools. All students can registered for this event ,at free of cost."
       },
       {
         label: "I am a first time hacker, what should I do?",
